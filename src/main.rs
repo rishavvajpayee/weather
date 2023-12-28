@@ -6,8 +6,8 @@ use std::env;
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>>{
     dotenv().ok();
-    println!("Weather API Find Weather Forcast");
-    print!("Enter the place you want to find the Weather of : ");
+    println!("Weather API Find Temperature Forcast");
+    print!("Enter the place you want to find the temperature of : ");
     io::stdout().flush().unwrap();
     let mut input = String::new();
 
